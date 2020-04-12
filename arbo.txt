@@ -1,0 +1,25 @@
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\TemplateData
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\Build
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\StreamingAssets
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\index.html
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\arbo.txt
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\Build\BuildWebGL.json
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\Build\BuildWebGL.wasm.code.unityweb
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\Build\BuildWebGL.wasm.framework.unityweb
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\Build\UnityLoader.js
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\Build\BuildWebGL.data.unityweb
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\StreamingAssets\Deck - Copie 4 cards.json
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\StreamingAssets\Deck - Copie Original.json
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\StreamingAssets\Deck.json
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\StreamingAssets\Deck - Copie 29 cards.json
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\TemplateData\favicon.ico
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\TemplateData\fullscreen.png
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\TemplateData\progressEmpty.Dark.png
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\TemplateData\progressEmpty.Light.png
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\TemplateData\progressFull.Dark.png
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\TemplateData\progressFull.Light.png
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\TemplateData\progressLogo.Dark.png
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\TemplateData\progressLogo.Light.png
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\TemplateData\style.css
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\TemplateData\UnityProgress.js
+C:\Users\titil\Documents\Unity\BaBoUNO\BuildWebGL\TemplateData\webgl-logo.png
