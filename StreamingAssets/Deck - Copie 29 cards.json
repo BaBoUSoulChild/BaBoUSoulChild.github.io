@@ -24,8 +24,8 @@
 {"color":"Blue","type":"Inversion","number":0,"point":20},
 {"color":"Blue","type":"Pass","number":0,"point":20},
 {"color":"Blue","type":"Pass","number":0,"point":20},
-{"color":"Red","type":"Normal","number":0,"point":0},
-{"color":"Red","type":"Normal","number":1,"point":1},
-{"color":"Red","type":"Normal","number":2,"point":2},
-{"color":"Red","type":"Normal","number":3,"point":3}
+{"color":"Blue","type":"Normal","number":0,"point":0},
+{"color":"Blue","type":"Normal","number":1,"point":1},
+{"color":"Blue","type":"Normal","number":2,"point":2},
+{"color":"Blue","type":"Normal","number":3,"point":3}
 ]}
