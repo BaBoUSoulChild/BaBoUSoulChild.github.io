@@ -334,7 +334,8 @@ function openFileExplorer() {
         }
 		
 function report(e) {
-	var file = e.target.files[0];
+	var file = document.getElementById('file-input');
+	file.click();
 	if(!file) {
 		return;
 	}
