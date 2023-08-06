@@ -1,0 +1,81 @@
+input {
+	width: 122px;
+	height: 26px;
+	font-size: 14px;
+	font-family: Verdana;
+	padding: 0;
+	outline: 0;
+	margin: -1px;
+}
+
+.head {
+	font-size: 18px;
+	font-family: Verdana;
+}
+
+label {
+	font-size: 18px;
+	color: #33f;
+}
+
+.col div {
+	float: left;
+	margin: 10px;
+}
+
+#compo {
+	white-space: pre;
+	font-size: 18px;
+}
+
+td {
+	/* text-align: right; */
+	font-weight: bold;
+	opacity: 0.8;
+	min-width: 122px;
+	user-select: none;
+}
+
+tr:nth-child(odd) input {
+	background-color: #eee;
+}
+
+tr:nth-child(even) input {
+	background-color: #efe;
+}
+
+.T1 {
+	background-image: url(img/T1.png);
+}
+
+.T2 {
+	background-image: url(img/T2.png);
+}
+
+.T3 {
+	background-image: url(img/T3.png);
+}
+
+.T4 {
+	background-image: url(img/T4.png);
+}
+
+.T5 {
+	background-image: url(img/T5.png);
+}
+
+.T6 {
+	background-image: url(img/T6.png);
+}
+
+.T7 {
+	background-image: url(img/T7.png);
+}
+
+.TI {
+	background-image: url(img/TI.png);
+}
+
+.TII {
+	background-image: url(img/TII.png);
+}

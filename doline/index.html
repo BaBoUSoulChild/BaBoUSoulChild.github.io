@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doline calculator</title>
+        <meta name="author" content="Doline">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+	<div id="compo"></div>
+<div><div id="Pla"></div>
+<div id="Exc"></div>
+
+<div>
+	<label for="name">Case name:</label>
+	<input id="name" class="text" type="text" style="width: 200px;">
+	<button id="save" onclick="save()">Save me</button>
+</div>
+
+<div>
+	<label for="file-input">Load case from file</label>
+	<input type="file" style="visibility:hidden;" id="file-input" />
+</div>
+<div>
+	<label for="file-input">Load case file from host</label>
+	<input class="text" type="text" id="host-input" />
+	<button id="host" onclick="reportHost()">Open</button>
+</div>
+
+<div>
+[a] [s] [d] [w] [Enter] [Tab] Navigate between inputs<br>
+[c] clears current cell<br>
+You can enter value in the form of sum like 2+3, 2+4+5+6 etc.
+</div>
+
+<div>
+	<input id="iwrite"  class="text">
+	<button id="bcopy" onclick="copy()">Copy to clipboard</button>
+	<button id="bwrite" onclick="bwrite()">Load from input</button>
+</div>
+<script src="doline.is-best.net/js/Soldiers.js"></script>
+<script src="doline.is-best.net/js/Utils.js"></script>
+
+<script>
+
+window.onload = function() {
+	populate(Player, 'Pla', '$', false);
+	populate(Soldiers, 'Exc', '@', true);
+	$('0$0').focus();
+	updateCompensation();
+}
+
+</script>
+<h5>[TAB]Doline</h5>
+</body>
+</html>
