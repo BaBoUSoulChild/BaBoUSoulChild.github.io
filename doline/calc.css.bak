@@ -24,8 +24,7 @@ label {
 }
 
 #compo {
-	white-space: pre;
-	font-size: 18px;	position: fixed;	bottom: 0;	right: 0;	background-color: rgba(240, 240, 240, 0.9); /* Couleur de fond avec opacité */	padding: 10px;
+	position: fixed;	top: 10px; /* Ajustez la distance depuis le haut */	right: 10px; /* Ajustez la distance depuis la droite */	background-color: rgba(240, 240, 240, 0.9);	padding: 20px; /* Ajustez la taille du div */	font-size: 36px; /* Ajustez la taille de la police */	z-index: 9999;
 }
 
 td {
