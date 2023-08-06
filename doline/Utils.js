@@ -327,12 +327,13 @@ function loadFile(F) {
 		$(keys[i]).value = data[keys[i]];
 	}
 }
+
 function openFileExplorer() {
             var fileInput = document.getElementById('file-input');
             fileInput.click();
-            fileInput.addEventListener('change', handleFileSelect);
+            fileInput.addEventListener('change', report);
         }
-		
+
 function report(e) {
 	var file = e.target.files[0];
 	if(!file) {

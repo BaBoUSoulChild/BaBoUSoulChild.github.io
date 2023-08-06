@@ -8,31 +8,28 @@
 </head>
 
 <body>
-	<div id="compo"></div>
-<div><div id="Pla"></div>
-<div id="Exc"></div>
+	
+<div>
+<span class="texte-grossi">Caravan taxes are included in the calculations.</span>
+</div>
 
 <div>
 	<label for="name">Case name:</label>
 	<input id="name" class="text" type="text" style="width: 200px;">
-	<button id="save" onclick="save()">Save me</button>
+	<button id="save" onclick="save()"class="bouton-grossir">Save me</button>
 </div>
 
 <div>
-	<label for="file-input">Load case from file</label>
+
 	<input type="file" style="visibility:hidden;" id="file-input" />
-	<button id="openFile" onclick="openFileExplorer()">Open</button>
+	<button id="file" onclick="openFileExplorer()" class="bouton-grossir">Load case from file</button>
 </div>
 
-<div>
-Taxe comprise
-</div>
+<div id="compo"></div>
+<div><div id="Pla"></div>
+<div id="Exc"></div>
 
-<div>
-	<input id="iwrite"  class="text">
-	<button id="bcopy" onclick="copy()">Copy to clipboard</button>
-	<button id="bwrite" onclick="bwrite()">Load from input</button>
-</div>
+
 <script src="Soldiers.js"></script>
 <script src="Utils.js"></script>
 
@@ -46,6 +43,6 @@ window.onload = function() {
 }
 
 </script>
-<h5>[TAB]Doline</h5>
+<h5><span class="texte-grossi">[TAB]LaFéePachier</span></h5>
 </body>
 </html>

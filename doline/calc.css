@@ -1,80 +1,80 @@
-input {
-	width: 122px;
-	height: 26px;
-	font-size: 14px;
-	font-family: Verdana;
-	padding: 0;
-	outline: 0;
-	margin: -1px;
-}
-
-.head {
-	font-size: 18px;
-	font-family: Verdana;
-}
-
-label {
-	font-size: 18px;
-	color: #33f;
-}
-
-.col div {
-	float: left;
-	margin: 10px;
-}
-
-#compo {
-	position: fixed;	top: 10px; /* Ajustez la distance depuis le haut */	right: 10px; /* Ajustez la distance depuis la droite */	background-color: rgba(240, 240, 240, 0.9);	padding: 20px; /* Ajustez la taille du div */	font-size: 32px; /* Ajustez la taille de la police */	z-index: 9999;
-}
-
-td {
-	/* text-align: right; */
-	font-weight: bold;
-	opacity: 0.8;
-	min-width: 122px;
-	user-select: none;
-}
-
-tr:nth-child(odd) input {
-	background-color: #eee;
-}
-
-tr:nth-child(even) input {
-	background-color: #efe;
-}
-
-.T1 {
-	background-image: url(img/T1.png);
-}
-
-.T2 {
-	background-image: url(img/T2.png);
-}
-
-.T3 {
-	background-image: url(img/T3.png);
-}
-
-.T4 {
-	background-image: url(img/T4.png);
-}
-
-.T5 {
-	background-image: url(img/T5.png);
-}
-
-.T6 {
-	background-image: url(img/T6.png);
-}
-
-.T7 {
-	background-image: url(img/T7.png);
-}
-
-.TI {
-	background-image: url(img/TI.png);
-}
-
-.TII {
-	background-image: url(img/TII.png);
+input {
+	width: 122px;
+	height: 26px;
+	font-size: 14px;
+	font-family: Verdana;
+	padding: 0;
+	outline: 0;
+	margin: -1px;
 }
+
+.head {
+	font-size: 18px;
+	font-family: Verdana;
+}
+.bouton-grossir {      padding: 7px 15px;       font-size: 20px;      background-color: #9999CC;      color: #000;      border: yes;      border-radius: 10px;      cursor: pointer;}.texte-grossi {      font-size: 25px;     }
+label {
+	font-size: 18px;
+	color: #33f;
+}
+
+.col div {
+	float: left;
+	margin: 10px;
+}
+
+#compo {
+	position: fixed;	top: 10px; /* Ajustez la distance depuis le haut */	right: 10px; /* Ajustez la distance depuis la droite */	background-color: rgba(240, 240, 240, 0.9);	padding: 20px; /* Ajustez la taille du div */	font-size: 32px; /* Ajustez la taille de la police */	z-index: 9999;
+}
+
+td {
+	/* text-align: right; */
+	font-weight: bold;
+	opacity: 0.8;
+	min-width: 122px;
+	user-select: none;
+}
+
+tr:nth-child(odd) input {
+	background-color: #eee;
+}
+
+tr:nth-child(even) input {
+	background-color: #efe;
+}
+
+.T1 {
+	background-color: #CCCCCC;
+}
+
+.T2 {
+	background-color: #669933;
+}
+
+.T3 {
+	background-color: #006699;
+}
+
+.T4 {
+	background-color: #663366;
+}
+
+.T5 {
+	background-color: #CC9933;
+}
+
+.T6 {
+	background-color: #993333;
+}
+
+.T7 {
+	background-color: #996600;
+}
+
+.TI {
+	background-color: #666666;
+}
+
+.TII {
+	background-color: #009933;
+}.T00 {	background-color: #CCCC99;}.T01 {	background-color: #990000;}

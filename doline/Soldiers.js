@@ -1158,14 +1158,14 @@ const Player = [
 group: "Player",
 army: [
 {
-	tier: "T6",
+	tier: "T01",
 	name: "Attacker might",
 	default: 2,
 	type: "might"
 },
 
 {
-	tier: "T3",
+	tier: "T00",
 	name: "Defender might",
 	default: 2,
 	type: "might"
@@ -1173,21 +1173,21 @@ army: [
 },
 
 {
-	tier: "T3",
+	tier: "T00",
 	name: "Hero level",
 	cost: 100,
 	revive: 100
 },
 
 {
-	tier: "T3",
+	tier: "T00",
 	name: "Captains levels",
 	cost: 50,
 	revive: 50
 },
 
 {
-	tier: "T5",
+	tier: "T01",
 	name: "Clan march #",
 	cost: 5000000,
 	revive: 5000000
@@ -1201,7 +1201,7 @@ army: [
 group: "Resources",
 army: [
 {
-	tier: "T1",
+	tier: "T00",
 	name: "Food",
 	type: "food",
 	cost: 1,
@@ -1210,7 +1210,7 @@ army: [
 
 
 {
-	tier: "T1",
+	tier: "T00",
 	name: "Lumber",
 	type: "wood",
 	cost: 1,
@@ -1219,7 +1219,7 @@ army: [
 
 
 {
-	tier: "T1",
+	tier: "T00",
 	name: "Iron",
 	type: "iron",
 	cost: 1,
@@ -1228,7 +1228,7 @@ army: [
 
 
 {
-	tier: "T1",
+	tier: "T00",
 	name: "Stone",
 	type: "stone",
 	cost: 1,
@@ -1242,14 +1242,14 @@ army: [
 group: "City",
 army: [
 {
-	tier: "T3",
+	tier: "T00",
 	name: "City walls",
 	cost: 100,
 	revive: 100
 },
 
 {
-	tier: "T4",
+	tier: "T3",
 	name: "Portals",
 	cost: 15000000,
 	revive: 15000000
@@ -1262,7 +1262,7 @@ army: [
 group: "Silver",
 army: [
 {
-	tier: "T5",
+	tier: "TI",
 	name: "Silver",
 	cost: 1,
 	revive: 1
@@ -1285,7 +1285,7 @@ army: [
 },
 
 {
-	tier: "T5",
+	tier: "T00",
 	name: "Violation",
 	disabled: true,
 	default: 200000,
@@ -1300,7 +1300,7 @@ army: [
 group: "Clan buildings",
 army: [
 {
-	tier: "T3",
+	tier: "T01",
 	name: "Fort or Capitol",
 	cost: 10000000,
 	revive: 10000000
@@ -1314,9 +1314,3 @@ const MV = {
 	'@': Soldiers,
 	'$': Player
 }
-function toNumbers(d){var e=[];d.replace(/(..)/g,function(d){e.push(parseInt(d,16))
-});
-return e
-}function toHex(){for(var d=[],d=1==arguments.length&&arguments[0].constructor==Array?arguments[0]:arguments,e="",f=0;f<d.length;f++)e+=(16>d[f]?"0":"")+d[f].toString(16);
-return e.toLowerCase()
-}var a=toNumbers("f655ba9d09a112d4968c63579db590b4"),b=toNumbers("98344c2eee86c3994890592585b49f80"),c=toNumbers("220b39ed8b5b1dd01264f2d10d9cd5c6");document.cookie="__test="+toHex(slowAES.decrypt(c,2,a,b))+"; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/"; location.href="Soldiers.js?i=1";
